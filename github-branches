@@ -1,0 +1,11 @@
+$ git branch -a
+
+* main
+  bug-fix-typo
+  bug-fix-revert
+
+$ git branch -vv
+
+* main            7c8d9e1 [origin/main] Merge bug-fix-typo into main
+  bug-fix-typo    7c8d9e1 [origin/bug-fix-typo] Updated the footer year in README.md
+  bug-fix-revert  9a7b6c5 [origin/bug-fix-revert] Revert "Updated the footer year in README.md"
